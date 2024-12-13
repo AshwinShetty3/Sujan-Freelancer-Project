@@ -5390,7 +5390,8 @@ figcaption {
   }
 
   .menu-icon_line-top {
-    background-color: var(--navbar-theme);
+    /* background-color: var(--navbar-theme); */
+    background-color: black;
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -5399,7 +5400,8 @@ figcaption {
   }
 
   .menu-icon_line-top.is-alternate {
-    background-color: var(--border-color--border-primary)
+    /* background-color: var(--border-color--border-primary) */
+    background-color: black;
   }
 
   .menu-icon_line-middle {
