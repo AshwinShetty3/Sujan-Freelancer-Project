@@ -5390,8 +5390,7 @@ figcaption {
   }
 
   .menu-icon_line-top {
-    /* background-color: var(--navbar-theme); */
-    background-color: black;
+    background-color: var(--navbar-theme);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -5400,13 +5399,11 @@ figcaption {
   }
 
   .menu-icon_line-top.is-alternate {
-    /* background-color: var(--border-color--border-primary) */
-    background-color: black;
+    background-color: var(--border-color--border-primary)
   }
 
   .menu-icon_line-middle {
-    /* background-color: var(--navbar-theme); */
-    background-color: black;
+    background-color: var(--navbar-theme);
     justify-content: center;
     align-items: center;
     width: 24px;
@@ -5420,8 +5417,7 @@ figcaption {
   }
 
   .menu-icon_line-middle.is-alternate {
-    /* background-color: var(--border-color--border-alternate) */
-    background-color: black;
+    background-color: var(--border-color--border-alternate)
   }
 
   .menu-icon_line-middle-inner {
@@ -5432,8 +5428,7 @@ figcaption {
   }
 
   .menu-icon_line-bottom {
-    /* background-color: var(--navbar-theme); */
-    background-color: black;
+    background-color: var(--navbar-theme);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -5442,8 +5437,7 @@ figcaption {
   }
 
   .menu-icon_line-bottom.is-alternate {
-    /* background-color: var(--border-color--border-alternate) */
-    background-color: black;
+    background-color: var(--border-color--border-alternate)
   }
 
   .section_hero {
