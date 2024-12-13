@@ -2,6 +2,11 @@
   font-weight: 600;
 }
 
+.testing_color{
+  color: red;
+  background-color: skyblue;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
