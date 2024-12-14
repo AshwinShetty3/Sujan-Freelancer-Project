@@ -3072,7 +3072,8 @@ figcaption {
   color: var(--text-color--text-alternate);
   text-transform: uppercase;
   background-color: #0000;
-  background-image: url(../images/673656b6c50584426c238787_SVG.svg);
+  /* background-image: url(../images/673656b6c50584426c238787_SVG.svg); */
+  background-image: none;
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 4rem 4rem;
@@ -3082,6 +3083,11 @@ figcaption {
   padding: 1rem 4rem 1rem 0;
   font-size: 1.25rem;
   font-weight: 500
+}
+
+/* If the arrow is added via a pseudo-element, you can also add this */
+.form_input::after {
+  content: none; /* Remove any pseudo-element content */
 }
 
 .form_input:focus {
