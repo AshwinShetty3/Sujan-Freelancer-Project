@@ -385,7 +385,7 @@ a,
             </div>
           </a>
 
-<!-- todo : Bird               -->
+<!-- todo : Bird - Fly -->
           <div class="bird-container bird-container-one">
             <div class="bird bird-one"></div>
           </div>
@@ -1197,6 +1197,24 @@ a,
 
     });
   </script>
+
+
+<!-- bird scrolled  -->
+ <!-- Add this script to handle the scroll event -->
+<script>
+  window.addEventListener('scroll', function() {
+    const birdContainers = document.querySelectorAll('.bird-container');
+    if (window.scrollY > 0) {
+      birdContainers.forEach(container => {
+        container.style.display = 'none'; 
+      });
+    } else {
+      birdContainers.forEach(container => {
+        container.style.display = 'block'; 
+      });
+    }
+  });
+</script>
 
 </body>
 
