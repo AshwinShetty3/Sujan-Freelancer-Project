@@ -48,13 +48,13 @@
       /* Set text color to black */
     }
 
-    /* Ensure text color is black on smaller screens */
-    @media (max-width: 767px) {
-      .navbar_link {
-        color: black !important;
-        /* Set text color to black for mobile */
-      }
-    }
+/* Ensure text color is wheat on smaller screens */
+    @media (max-width: 991px) { /* Adjusted to include tablet screens */
+              .navbar_menu-links .navbar_link {
+                color: currentColor !important; /* Set text color to white for mobile and tablet */
+              }
+            }
+
 
     @media screen and (max-width: 991px) {
 
