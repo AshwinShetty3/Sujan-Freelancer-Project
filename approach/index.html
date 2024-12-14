@@ -42,6 +42,30 @@
       overflow: hidden;
       transform-origin: bottom;
     }
+
+      /* Add this CSS to set the text color of navbar links to black */
+      .navbar_link {
+      color: black !important;
+      /* Set text color to black */
+    }
+
+    /* Ensure text color is black on smaller screens */
+    @media (max-width: 767px) {
+      .navbar_link {
+        color: black !important;
+        /* Set text color to black for mobile */
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+
+      .menu-icon_line-top,
+      .menu-icon_line-middle,
+      .menu-icon_line-bottom {
+        background-color: black;
+        /* Set to black for mobile and tablet */
+      }
+    }
   </style>
 </head>
 
@@ -357,10 +381,12 @@ a,
             </div>
           </a>
           <nav role="navigation" class="navbar_menu is-page-height-tablet w-nav-menu">
-            <div class="navbar_menu-links"><a href="/about" class="navbar_link w-nav-link">ABOUT</a><a href="/projects"
-                class="navbar_link w-nav-link">PROJECTS</a><a href="/approach" aria-current="page"
-                class="navbar_link w-nav-link w--current">ApPROACH</a><a href="/journal"
-                class="navbar_link w-nav-link">JOURNAL</a><a href="/contact" class="navbar_link w-nav-link">CONTACT</a>
+            <div class="navbar_menu-links">
+              <a href="/about" class="navbar_link w-nav-link">ABOUT</a>
+              <a href="/projects" class="navbar_link w-nav-link">PROJECTS</a>
+              <a href="/approach" aria-current="page" class="navbar_link w-nav-link w--current">ApPROACH</a>
+              <a href="/journal" class="navbar_link w-nav-link">JOURNAL</a>
+              <a href="/contact" class="navbar_link w-nav-link">CONTACT</a>
             </div>
           </nav>
           <div class="navbar_menu-button w-nav-button">
@@ -393,7 +419,7 @@ a,
                 opacity: 1;
               }
             </style>
-            
+
             <div image-wrapper="" class="header_image-wrapper"><img class="header_image"
                 src="https://cdn.prod.website-files.com/6733a1f085ca53d3f1762983/6737a3b6cf7ace58f1c36f91_image12.avif"
                 alt="" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 99vw" image=""
